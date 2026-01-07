@@ -10,7 +10,7 @@ test("Single test run using evAnalyze (screenshots + HTML report)", async ({ pag
 
   const evincedService = new EvincedSDK(page);
 
-  await page.goto("https://a11y-audits.com/collections/all");
+  await page.goto("https://a11y-audits.com/");
   await page.waitForLoadState("networkidle");
 
   const issues = await evincedService.evAnalyze({
