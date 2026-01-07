@@ -1,0 +1,15 @@
+# Dependencies
+node_modules/
+
+# Playwright outputs
+test-results/
+playwright-report/
+
+# Evinced outputs
+evincedReports/
+
+# Environment variables
+.env
+
+# OS files
+.DS_Store
